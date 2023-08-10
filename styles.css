@@ -110,6 +110,14 @@ main {
     background-color: var(--off-white);
 }
 
+.main-tables-container {
+    display: flex;
+    height: 400px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .main-exchange-container {
     width: 100%;
     height: auto;
@@ -155,9 +163,10 @@ main {
 
 .main-currency-table {
     width: 70%;
+    scroll-snap-align: center;
     min-width: 235px;
     max-width: 500px;
-    height: 310px;
+    height: 400px;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
@@ -182,7 +191,7 @@ main {
     max-width: 300px;
     height: 250px;
     margin: 0 auto;
-    gap: 2px;
+    gap: 2px;   
 }
 
 .currency-table--container div {
@@ -242,7 +251,7 @@ main {
 .currency-table--date {
     width: 190px;
     height: 30px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 8px;
     background-color: var(--soft-orange);
     border-radius: 8px;
@@ -256,7 +265,7 @@ main {
 
 .main-currency-table .commission-table--title {
     text-align: left;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
     font-size: 1.8rem;
@@ -268,7 +277,7 @@ main {
 .commission-table--date {
     width: 190px;
     height: 30px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 8px;
     background-color: var(--soft-blue);
     border-radius: 8px;
