@@ -176,10 +176,7 @@ main {
 }
 
 .main-currency-table .currency-table--title {
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
+    text-align: center;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
@@ -267,10 +264,7 @@ main {
 }
 
 .main-currency-table .commission-table--title {
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
+    text-align: center;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
